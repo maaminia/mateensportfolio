@@ -1,27 +1,143 @@
 .App {
-  text-align: center;
+
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    position: absolute;
+    right: 10;
+    top: 10;
+    left: 10;
+    bottom: 10;
+    height: auto;
+    width: auto;
+    
+    padding: 10px;
+    text-align: left;
+
+    //border: 10px solid gold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+    height: 10vmin;
+    width: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 300px;
+    right: 0;
+    margin: 0;
+}
+.sammy {
+    height: 10vmin;
+    width: auto;
+    position: absolute;
+    
+ 
+    top: 0;
+    bottom: 0;
+    left: -400px;
+    right: 0;
+    margin: 0;
+}
+
+.headshot {
+    height: auto;
+    width: 100px;
+    align-self: center;
+    padding: 100px;
+    position: absolute;
+}
+
+.App-NavBackground {
+    background-color: gold;
+    height: 10vmin;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.bioText {
+    left: 0;
+    top: 280px;
+    right: 0;
+    bottom: 0;
+    white-space: pre-line;
+    text-align: center;
+    text-size-adjust: auto;
+    height: 10vmin;
+    position: absolute;
+    align-self: center;
+}
+
+.major {
+    padding-top: 10px;
+    white-space: pre-line;
+    text-align: center;
+    text-size-adjust: auto;
+    height: auto;
+    position: absolute;
+    align-self: center;
+    left: 0;
+    top: 0px;
+    right: 0;
+    bottom: 0;
+}
+
+.linkedin {
+    padding-top: 0px;
+    white-space: pre-line;
+    text-align: center;
+    text-size-adjust: auto;
+    height: 10vmin;
+    position: fixed;
+    align-self: center;
+    left: 0;
+    top: 370px;
+    right: 0;
+    bottom: 0;
+}
+.resume {
+    padding-top: 0px;
+    white-space: pre-line;
+    text-align: center;
+    text-size-adjust: auto;
+    height: 10vmin;
+    position: fixed;
+    align-self: center;
+    left: 0;
+    top: 340px;
+    right: 0;
+    bottom: 0;
+}
+
+.github {
+    padding-top: 00px;
+    left: 0;
+    top: 400px;
+    right: 0;
+    bottom: 0;
+    white-space: pre-line;
+    text-align: center;
+    text-size-adjust: auto;
+    height: 10vmin;
+    z-index: 1;
+    position: absolute;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: navy;
+    text-align: center;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
 }
 
 .App-link {
