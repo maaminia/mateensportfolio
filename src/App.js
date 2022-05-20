@@ -4,7 +4,7 @@ import sammy from './sammySlug.png';
 import './App.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
     const text = 'Mateen Aminian \n Full Stack Developer \n';
@@ -28,21 +28,28 @@ function App() {
           
           <img className="headshot" src={selfie} alt="selfie" />
           <div>
-          <a
+          <button
               className="linkedin"
-              href="https://www.linkedin.com/in/mateen-aminian-042bb6187/"
               target="_blank"
+                  type="button"
+                  onClick={(e) => {
+                      e.preventDefault();
+                      window.location.href = 'https://www.linkedin.com/in/mateen-aminian-042bb6187/';
+                  }}
               
           >
-              <div> LinkedIn </div>
-          </a>
-          <a
+              LinkedIn 
+          </button>
+          <button
               className="github"
-              href="https://github.com/maaminia"
-              target="_blank"
+                  type="button"
+                  onClick={(e) => {
+                      e.preventDefault();
+                      window.location.href = 'https://github.com/maaminia';
+                  }}
           >
-              <div> Github </div>
-          </a>
+               Github 
+          </button>
           <a className="resume" href="file:///C:/Users/matee/Dropbox/My%20PC%20(DESKTOP-1PKDDLV)/Documents/resume_april2022.pdf" target="_blank">
               <div> Resume </div>
               </a>
