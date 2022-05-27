@@ -4,7 +4,7 @@ import sammy from './sammySlug.png';
 import './App.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import 'bootstrap/dist/css/bootstrap.min.css';
+//import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
     const text = 'Mateen Aminian \n Full Stack Developer \n';
@@ -28,6 +28,7 @@ function App() {
           
           <img className="headshot" src={selfie} alt="selfie" />
           <div>
+          
           <button
               className="linkedin"
               target="_blank"
@@ -39,7 +40,8 @@ function App() {
               
           >
               LinkedIn 
-          </button>
+                  </button>
+                
           <button
               className="github"
                   type="button"
@@ -50,11 +52,13 @@ function App() {
           >
                Github 
           </button>
-          <a className="resume" href="file:///C:/Users/matee/Dropbox/My%20PC%20(DESKTOP-1PKDDLV)/Documents/resume_april2022.pdf" target="_blank">
-              <div> Resume </div>
-              </a>
+          <button className="resume" href="file:///C:/Users/matee/Dropbox/My%20PC%20(DESKTOP-1PKDDLV)/Documents/resume_april2022.pdf" target="_blank">
+               Resume 
+              </button>
               </div>
-    </div>
+      </div>
+
+      
   );
 }
 

@@ -1,0 +1,32 @@
+.item1 {
+    position: absolute;
+    right: 0;
+    top: 400px;
+    left: 1vw;
+    bottom: 0;
+    height: auto;
+    width: auto;
+
+    border-radius: 4px;
+}
+
+.item2 {
+    position: absolute;
+    right: 0;
+    top: 370px;
+    left: 26vw;
+    bottom: 0;
+    height: auto;
+    width: auto;
+    border-radius: 0;
+ 
+}
+.item3 {
+    position: absolute;
+    right: 0;
+    top: 370px;
+    left: 60vw;
+    bottom: 0;
+    text-align: center;
+    border-radius: 0;
+}
