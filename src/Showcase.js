@@ -8,6 +8,16 @@ function Showcase() {
     return (
         
         <div>
+            <div className="gamePage">
+            <button target="_blank"
+                type="button"
+                onClick={(e) => {
+                    e.preventDefault();
+                    window.location.href = 'https://sites.google.com/view/crashcourseucscgame/home?authuser=3';
+                }}>
+                Crash Course Website
+                </button>
+                </div>
             <div className="item1">
                 
                 <iframe width="480" height="315"

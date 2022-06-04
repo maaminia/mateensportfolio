@@ -9,7 +9,7 @@ import ReactDOM from 'react-dom/client';
 function App() {
     const text = 'Mateen Aminian \n Full Stack Developer \n';
     const major = "Bachelor's of Science \n Computer Science: Computer Game Design \n"
-    
+    const about = "About Me: \n I am a 21 year old aspiring full stack developer \n with a passion for game development. I graduated from the \n University of California, Santa Cruz and I am \ncurrently looking for a full-time job opportunity. \nPlease feel free to check out my Linkedin, Github, and Resume";
   return (
       <div className="App-header">
           <div className="App-NavBackground">
@@ -24,6 +24,7 @@ function App() {
                   </child>
               <child className="major"> {major}</child>
               <child className="bioText"> {text}</child>
+              <child className="About"> {about}</child>
           </div>
           
           <img className="headshot" src={selfie} alt="selfie" />
