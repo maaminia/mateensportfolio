@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/mateensportfolio/static/css/main.dc6470e6.css",
-    "main.js": "/mateensportfolio/static/js/main.1c20cf6c.js",
+    "main.css": "/mateensportfolio/static/css/main.c455e5e1.css",
+    "main.js": "/mateensportfolio/static/js/main.ab78a7a9.js",
     "static/js/787.e8a8665c.chunk.js": "/mateensportfolio/static/js/787.e8a8665c.chunk.js",
     "static/media/selfie.JPG": "/mateensportfolio/static/media/selfie.fe2451668ad08d79b80e.JPG",
     "static/media/ucsc_logo.png": "/mateensportfolio/static/media/ucsc_logo.6316df86d64b5fb9999b.png",
     "static/media/sammySlug.png": "/mateensportfolio/static/media/sammySlug.0187b3b98c80a9ae21f4.png",
     "static/media/hoopz_ss.PNG": "/mateensportfolio/static/media/hoopz_ss.8fb7ad22c1fbb4331134.PNG",
     "index.html": "/mateensportfolio/index.html",
-    "main.dc6470e6.css.map": "/mateensportfolio/static/css/main.dc6470e6.css.map",
-    "main.1c20cf6c.js.map": "/mateensportfolio/static/js/main.1c20cf6c.js.map",
+    "main.c455e5e1.css.map": "/mateensportfolio/static/css/main.c455e5e1.css.map",
+    "main.ab78a7a9.js.map": "/mateensportfolio/static/js/main.ab78a7a9.js.map",
     "787.e8a8665c.chunk.js.map": "/mateensportfolio/static/js/787.e8a8665c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc6470e6.css",
-    "static/js/main.1c20cf6c.js"
+    "static/css/main.c455e5e1.css",
+    "static/js/main.ab78a7a9.js"
   ]
 }
